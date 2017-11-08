@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		614B70C63B7DD0CBC2331DF9 /* Pods_SaltUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA76DB64375D31E62AB30103 /* Pods_SaltUITests.framework */; };
+		6C398FAA0A244C69DEBF6358 /* Pods_SaltTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F58CC9800334C3B61E5785 /* Pods_SaltTests.framework */; };
+		BFBE7E6CF723C31A004AABB4 /* Pods_Salt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E4B423C6C7BD84C63B8775F /* Pods_Salt.framework */; };
+		ED53229B1FB37E8D00333C63 /* CustomIdentityProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED53229A1FB37E8D00333C63 /* CustomIdentityProvider.swift */; };
+		ED53229E1FB391B800333C63 /* my.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED53229D1FB3915F00333C63 /* my.txt */; };
 		EDFAED891FB33C790057A9C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFAED881FB33C790057A9C8 /* AppDelegate.swift */; };
 		EDFAED8B1FB33C790057A9C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFAED8A1FB33C790057A9C8 /* ViewController.swift */; };
 		EDFAED8E1FB33C790057A9C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFAED8C1FB33C790057A9C8 /* Main.storyboard */; };
@@ -34,6 +39,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E4B423C6C7BD84C63B8775F /* Pods_Salt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Salt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20F58CC9800334C3B61E5785 /* Pods_SaltTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaltTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28ADC7610C2A0828712C43EC /* Pods-SaltTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaltTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaltTests/Pods-SaltTests.release.xcconfig"; sourceTree = "<group>"; };
+		291BEB58FA7DD17EE77AE1E8 /* Pods-SaltUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaltUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaltUITests/Pods-SaltUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47CF484B650F67744C40F259 /* Pods-Salt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salt.release.xcconfig"; path = "Pods/Target Support Files/Pods-Salt/Pods-Salt.release.xcconfig"; sourceTree = "<group>"; };
+		9D2EBDBBC25DC87A90768CB5 /* Pods-SaltTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaltTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SaltTests/Pods-SaltTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA76DB64375D31E62AB30103 /* Pods_SaltUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SaltUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBA58F65E923D0CA26ECF4C8 /* Pods-Salt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Salt/Pods-Salt.debug.xcconfig"; sourceTree = "<group>"; };
+		EAE55950EEBBED23E088C4F2 /* Pods-SaltUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaltUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaltUITests/Pods-SaltUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ED53229A1FB37E8D00333C63 /* CustomIdentityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIdentityProvider.swift; sourceTree = "<group>"; };
+		ED53229C1FB38A9400333C63 /* awsconfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
+		ED53229D1FB3915F00333C63 /* my.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = my.txt; sourceTree = "<group>"; };
 		EDFAED851FB33C790057A9C8 /* Salt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDFAED881FB33C790057A9C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDFAED8A1FB33C790057A9C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFBE7E6CF723C31A004AABB4 /* Pods_Salt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C398FAA0A244C69DEBF6358 /* Pods_SaltTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +87,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				614B70C63B7DD0CBC2331DF9 /* Pods_SaltUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D04278602A9DFB7F97A916F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBA58F65E923D0CA26ECF4C8 /* Pods-Salt.debug.xcconfig */,
+				47CF484B650F67744C40F259 /* Pods-Salt.release.xcconfig */,
+				9D2EBDBBC25DC87A90768CB5 /* Pods-SaltTests.debug.xcconfig */,
+				28ADC7610C2A0828712C43EC /* Pods-SaltTests.release.xcconfig */,
+				291BEB58FA7DD17EE77AE1E8 /* Pods-SaltUITests.debug.xcconfig */,
+				EAE55950EEBBED23E088C4F2 /* Pods-SaltUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C379AC6D79B57839A5362A84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E4B423C6C7BD84C63B8775F /* Pods_Salt.framework */,
+				20F58CC9800334C3B61E5785 /* Pods_SaltTests.framework */,
+				BA76DB64375D31E62AB30103 /* Pods_SaltUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EDFAED7C1FB33C790057A9C8 = {
 			isa = PBXGroup;
 			children = (
+				ED53229C1FB38A9400333C63 /* awsconfiguration.json */,
+				ED53229D1FB3915F00333C63 /* my.txt */,
 				EDFAED871FB33C790057A9C8 /* Salt */,
 				EDFAED9C1FB33C7A0057A9C8 /* SaltTests */,
 				EDFAEDA71FB33C7A0057A9C8 /* SaltUITests */,
 				EDFAED861FB33C790057A9C8 /* Products */,
+				5D04278602A9DFB7F97A916F /* Pods */,
+				C379AC6D79B57839A5362A84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				EDFAED881FB33C790057A9C8 /* AppDelegate.swift */,
+				ED53229A1FB37E8D00333C63 /* CustomIdentityProvider.swift */,
 				EDFAED8A1FB33C790057A9C8 /* ViewController.swift */,
 				EDFAED8C1FB33C790057A9C8 /* Main.storyboard */,
 				EDFAED8F1FB33C790057A9C8 /* Assets.xcassets */,
@@ -132,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDFAEDAD1FB33C7A0057A9C8 /* Build configuration list for PBXNativeTarget "Salt" */;
 			buildPhases = (
+				6C178E16830DB00A7F8FE1AE /* [CP] Check Pods Manifest.lock */,
 				EDFAED811FB33C790057A9C8 /* Sources */,
 				EDFAED821FB33C790057A9C8 /* Frameworks */,
 				EDFAED831FB33C790057A9C8 /* Resources */,
+				8CE7CEBB6DD2D2851C464962 /* [CP] Embed Pods Frameworks */,
+				6D8B3B9EE91CFA97BD27CBB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDFAEDB01FB33C7A0057A9C8 /* Build configuration list for PBXNativeTarget "SaltTests" */;
 			buildPhases = (
+				6CB492D4BA93365318378509 /* [CP] Check Pods Manifest.lock */,
 				EDFAED951FB33C790057A9C8 /* Sources */,
 				EDFAED961FB33C790057A9C8 /* Frameworks */,
 				EDFAED971FB33C790057A9C8 /* Resources */,
+				909174047FE55A72C35BA4F8 /* [CP] Embed Pods Frameworks */,
+				E6EC2F0DE046F4802F8273B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDFAEDB31FB33C7A0057A9C8 /* Build configuration list for PBXNativeTarget "SaltUITests" */;
 			buildPhases = (
+				B64A3D819E506DB5B59C4CE6 /* [CP] Check Pods Manifest.lock */,
 				EDFAEDA01FB33C7A0057A9C8 /* Sources */,
 				EDFAEDA11FB33C7A0057A9C8 /* Frameworks */,
 				EDFAEDA21FB33C7A0057A9C8 /* Resources */,
+				D520F762E68DCF8F809AEF59 /* [CP] Embed Pods Frameworks */,
+				6E9219F439D8D6F93D8E1AEE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED53229E1FB391B800333C63 /* my.txt in Resources */,
 				EDFAED931FB33C790057A9C8 /* LaunchScreen.storyboard in Resources */,
 				EDFAED901FB33C790057A9C8 /* Assets.xcassets in Resources */,
 				EDFAED8E1FB33C790057A9C8 /* Main.storyboard in Resources */,
@@ -254,11 +312,182 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C178E16830DB00A7F8FE1AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Salt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CB492D4BA93365318378509 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaltTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D8B3B9EE91CFA97BD27CBB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Salt/Pods-Salt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E9219F439D8D6F93D8E1AEE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaltUITests/Pods-SaltUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CE7CEBB6DD2D2851C464962 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Salt/Pods-Salt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthCore/AWSAuthCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSAuthUI/AWSAuthUI.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSS3/AWSS3.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSUserPoolsSignIn/AWSUserPoolsSignIn.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSAuthUI.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSS3.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSUserPoolsSignIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Salt/Pods-Salt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		909174047FE55A72C35BA4F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaltTests/Pods-SaltTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B64A3D819E506DB5B59C4CE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SaltUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D520F762E68DCF8F809AEF59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaltUITests/Pods-SaltUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6EC2F0DE046F4802F8273B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SaltTests/Pods-SaltTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDFAED811FB33C790057A9C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED53229B1FB37E8D00333C63 /* CustomIdentityProvider.swift in Sources */,
 				EDFAED8B1FB33C790057A9C8 /* ViewController.swift in Sources */,
 				EDFAED891FB33C790057A9C8 /* AppDelegate.swift in Sources */,
 			);
@@ -424,6 +653,7 @@
 		};
 		EDFAEDAE1FB33C7A0057A9C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA58F65E923D0CA26ECF4C8 /* Pods-Salt.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -439,6 +669,7 @@
 		};
 		EDFAEDAF1FB33C7A0057A9C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47CF484B650F67744C40F259 /* Pods-Salt.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +685,7 @@
 		};
 		EDFAEDB11FB33C7A0057A9C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2EBDBBC25DC87A90768CB5 /* Pods-SaltTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +703,7 @@
 		};
 		EDFAEDB21FB33C7A0057A9C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28ADC7610C2A0828712C43EC /* Pods-SaltTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +721,7 @@
 		};
 		EDFAEDB41FB33C7A0057A9C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 291BEB58FA7DD17EE77AE1E8 /* Pods-SaltUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -504,6 +738,7 @@
 		};
 		EDFAEDB51FB33C7A0057A9C8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE55950EEBBED23E088C4F2 /* Pods-SaltUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
