@@ -1,0 +1,57 @@
+PODS:
+  - AWSAuthCore (2.6.2):
+    - AWSCore (= 2.6.2)
+  - AWSAuthUI (2.6.2):
+    - AWSAuthCore (= 2.6.2)
+    - AWSCore (= 2.6.2)
+  - AWSCognito (2.6.2):
+    - AWSCore (= 2.6.2)
+  - AWSCognitoIdentityProvider (2.6.2):
+    - AWSCore (= 2.6.2)
+  - AWSCore (2.6.2)
+  - AWSDynamoDB (2.6.2):
+    - AWSCore (= 2.6.2)
+  - AWSS3 (2.6.2):
+    - AWSCore (= 2.6.2)
+  - AWSUserPoolsSignIn (2.6.2):
+    - AWSAuthCore (= 2.6.2)
+    - AWSCognitoIdentityProvider (= 2.6.2)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FBSDKCoreKit (4.27.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.27.0):
+    - FBSDKCoreKit
+
+DEPENDENCIES:
+  - AWSAuthCore
+  - AWSAuthUI
+  - AWSCognito
+  - AWSCognitoIdentityProvider
+  - AWSDynamoDB
+  - AWSS3
+  - AWSUserPoolsSignIn
+  - Bolts
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+
+SPEC CHECKSUMS:
+  AWSAuthCore: 41155990fc5b10d84667c237a8757799edbf6267
+  AWSAuthUI: 771c3aa17b9a83c8c39c7813a09b9916d1456225
+  AWSCognito: e8db76ef485fbbc1c90617217451301b1477ce45
+  AWSCognitoIdentityProvider: 8d2e86a00ca828ceaf6513b96ee3a45b70518631
+  AWSCore: 8f458961a4967be219162108f5be7df1c935639a
+  AWSDynamoDB: 29e1d8775b13a18033b6064e1563e5769fdfe024
+  AWSS3: b3e2c4aca868cae06b5b88337ceabee25709fcc5
+  AWSUserPoolsSignIn: 2d27dbcde0d1287a19784ea33a27b4df1eb7891c
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FBSDKCoreKit: ebc6c5f5b3f0e72396041050e2266781a38ac587
+  FBSDKLoginKit: 887be4b7452e1c5a3cc4485ce152529965a0c41e
+
+PODFILE CHECKSUM: 9e39f79c8b794886d83c00210cfc8029b05f91fb
+
+COCOAPODS: 1.3.1
