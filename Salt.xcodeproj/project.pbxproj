@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDFAED891FB33C790057A9C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFAED881FB33C790057A9C8 /* AppDelegate.swift */; };
+		EDFAED8B1FB33C790057A9C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFAED8A1FB33C790057A9C8 /* ViewController.swift */; };
+		EDFAED8E1FB33C790057A9C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFAED8C1FB33C790057A9C8 /* Main.storyboard */; };
+		EDFAED901FB33C790057A9C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDFAED8F1FB33C790057A9C8 /* Assets.xcassets */; };
+		EDFAED931FB33C790057A9C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDFAED911FB33C790057A9C8 /* LaunchScreen.storyboard */; };
+		EDFAED9E1FB33C7A0057A9C8 /* SaltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFAED9D1FB33C7A0057A9C8 /* SaltTests.swift */; };
+		EDFAEDA91FB33C7A0057A9C8 /* SaltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFAEDA81FB33C7A0057A9C8 /* SaltUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDFAED9A1FB33C790057A9C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDFAED7D1FB33C790057A9C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFAED841FB33C790057A9C8;
+			remoteInfo = Salt;
+		};
+		EDFAEDA51FB33C7A0057A9C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDFAED7D1FB33C790057A9C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDFAED841FB33C790057A9C8;
+			remoteInfo = Salt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDFAED851FB33C790057A9C8 /* Salt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFAED881FB33C790057A9C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDFAED8A1FB33C790057A9C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDFAED8D1FB33C790057A9C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDFAED8F1FB33C790057A9C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDFAED921FB33C790057A9C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDFAED941FB33C790057A9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFAED991FB33C790057A9C8 /* SaltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFAED9D1FB33C7A0057A9C8 /* SaltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaltTests.swift; sourceTree = "<group>"; };
+		EDFAED9F1FB33C7A0057A9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDFAEDA41FB33C7A0057A9C8 /* SaltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFAEDA81FB33C7A0057A9C8 /* SaltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaltUITests.swift; sourceTree = "<group>"; };
+		EDFAEDAA1FB33C7A0057A9C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDFAED821FB33C790057A9C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFAED961FB33C790057A9C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFAEDA11FB33C7A0057A9C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDFAED7C1FB33C790057A9C8 = {
+			isa = PBXGroup;
+			children = (
+				EDFAED871FB33C790057A9C8 /* Salt */,
+				EDFAED9C1FB33C7A0057A9C8 /* SaltTests */,
+				EDFAEDA71FB33C7A0057A9C8 /* SaltUITests */,
+				EDFAED861FB33C790057A9C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDFAED861FB33C790057A9C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDFAED851FB33C790057A9C8 /* Salt.app */,
+				EDFAED991FB33C790057A9C8 /* SaltTests.xctest */,
+				EDFAEDA41FB33C7A0057A9C8 /* SaltUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDFAED871FB33C790057A9C8 /* Salt */ = {
+			isa = PBXGroup;
+			children = (
+				EDFAED881FB33C790057A9C8 /* AppDelegate.swift */,
+				EDFAED8A1FB33C790057A9C8 /* ViewController.swift */,
+				EDFAED8C1FB33C790057A9C8 /* Main.storyboard */,
+				EDFAED8F1FB33C790057A9C8 /* Assets.xcassets */,
+				EDFAED911FB33C790057A9C8 /* LaunchScreen.storyboard */,
+				EDFAED941FB33C790057A9C8 /* Info.plist */,
+			);
+			path = Salt;
+			sourceTree = "<group>";
+		};
+		EDFAED9C1FB33C7A0057A9C8 /* SaltTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDFAED9D1FB33C7A0057A9C8 /* SaltTests.swift */,
+				EDFAED9F1FB33C7A0057A9C8 /* Info.plist */,
+			);
+			path = SaltTests;
+			sourceTree = "<group>";
+		};
+		EDFAEDA71FB33C7A0057A9C8 /* SaltUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDFAEDA81FB33C7A0057A9C8 /* SaltUITests.swift */,
+				EDFAEDAA1FB33C7A0057A9C8 /* Info.plist */,
+			);
+			path = SaltUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDFAED841FB33C790057A9C8 /* Salt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFAEDAD1FB33C7A0057A9C8 /* Build configuration list for PBXNativeTarget "Salt" */;
+			buildPhases = (
+				EDFAED811FB33C790057A9C8 /* Sources */,
+				EDFAED821FB33C790057A9C8 /* Frameworks */,
+				EDFAED831FB33C790057A9C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Salt;
+			productName = Salt;
+			productReference = EDFAED851FB33C790057A9C8 /* Salt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDFAED981FB33C790057A9C8 /* SaltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFAEDB01FB33C7A0057A9C8 /* Build configuration list for PBXNativeTarget "SaltTests" */;
+			buildPhases = (
+				EDFAED951FB33C790057A9C8 /* Sources */,
+				EDFAED961FB33C790057A9C8 /* Frameworks */,
+				EDFAED971FB33C790057A9C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDFAED9B1FB33C790057A9C8 /* PBXTargetDependency */,
+			);
+			name = SaltTests;
+			productName = SaltTests;
+			productReference = EDFAED991FB33C790057A9C8 /* SaltTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDFAEDA31FB33C7A0057A9C8 /* SaltUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDFAEDB31FB33C7A0057A9C8 /* Build configuration list for PBXNativeTarget "SaltUITests" */;
+			buildPhases = (
+				EDFAEDA01FB33C7A0057A9C8 /* Sources */,
+				EDFAEDA11FB33C7A0057A9C8 /* Frameworks */,
+				EDFAEDA21FB33C7A0057A9C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDFAEDA61FB33C7A0057A9C8 /* PBXTargetDependency */,
+			);
+			name = SaltUITests;
+			productName = SaltUITests;
+			productReference = EDFAEDA41FB33C7A0057A9C8 /* SaltUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDFAED7D1FB33C790057A9C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = weza;
+				TargetAttributes = {
+					EDFAED841FB33C790057A9C8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					EDFAED981FB33C790057A9C8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDFAED841FB33C790057A9C8;
+					};
+					EDFAEDA31FB33C7A0057A9C8 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EDFAED841FB33C790057A9C8;
+					};
+				};
+			};
+			buildConfigurationList = EDFAED801FB33C790057A9C8 /* Build configuration list for PBXProject "Salt" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDFAED7C1FB33C790057A9C8;
+			productRefGroup = EDFAED861FB33C790057A9C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDFAED841FB33C790057A9C8 /* Salt */,
+				EDFAED981FB33C790057A9C8 /* SaltTests */,
+				EDFAEDA31FB33C7A0057A9C8 /* SaltUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDFAED831FB33C790057A9C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFAED931FB33C790057A9C8 /* LaunchScreen.storyboard in Resources */,
+				EDFAED901FB33C790057A9C8 /* Assets.xcassets in Resources */,
+				EDFAED8E1FB33C790057A9C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFAED971FB33C790057A9C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFAEDA21FB33C7A0057A9C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDFAED811FB33C790057A9C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFAED8B1FB33C790057A9C8 /* ViewController.swift in Sources */,
+				EDFAED891FB33C790057A9C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFAED951FB33C790057A9C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFAED9E1FB33C7A0057A9C8 /* SaltTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDFAEDA01FB33C7A0057A9C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDFAEDA91FB33C7A0057A9C8 /* SaltUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDFAED9B1FB33C790057A9C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDFAED841FB33C790057A9C8 /* Salt */;
+			targetProxy = EDFAED9A1FB33C790057A9C8 /* PBXContainerItemProxy */;
+		};
+		EDFAEDA61FB33C7A0057A9C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDFAED841FB33C790057A9C8 /* Salt */;
+			targetProxy = EDFAEDA51FB33C7A0057A9C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDFAED8C1FB33C790057A9C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFAED8D1FB33C790057A9C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDFAED911FB33C790057A9C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDFAED921FB33C790057A9C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDFAEDAB1FB33C7A0057A9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDFAEDAC1FB33C7A0057A9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDFAEDAE1FB33C7A0057A9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = Salt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weza.Salt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDFAEDAF1FB33C7A0057A9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = Salt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weza.Salt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EDFAEDB11FB33C7A0057A9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = SaltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weza.SaltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salt.app/Salt";
+			};
+			name = Debug;
+		};
+		EDFAEDB21FB33C7A0057A9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = SaltTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weza.SaltTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salt.app/Salt";
+			};
+			name = Release;
+		};
+		EDFAEDB41FB33C7A0057A9C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = SaltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weza.SaltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Salt;
+			};
+			name = Debug;
+		};
+		EDFAEDB51FB33C7A0057A9C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G5A2E3RMNX;
+				INFOPLIST_FILE = SaltUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.weza.SaltUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Salt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDFAED801FB33C790057A9C8 /* Build configuration list for PBXProject "Salt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFAEDAB1FB33C7A0057A9C8 /* Debug */,
+				EDFAEDAC1FB33C7A0057A9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFAEDAD1FB33C7A0057A9C8 /* Build configuration list for PBXNativeTarget "Salt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFAEDAE1FB33C7A0057A9C8 /* Debug */,
+				EDFAEDAF1FB33C7A0057A9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFAEDB01FB33C7A0057A9C8 /* Build configuration list for PBXNativeTarget "SaltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFAEDB11FB33C7A0057A9C8 /* Debug */,
+				EDFAEDB21FB33C7A0057A9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDFAEDB31FB33C7A0057A9C8 /* Build configuration list for PBXNativeTarget "SaltUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFAEDB41FB33C7A0057A9C8 /* Debug */,
+				EDFAEDB51FB33C7A0057A9C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDFAED7D1FB33C790057A9C8 /* Project object */;
+}
