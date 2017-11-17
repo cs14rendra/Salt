@@ -49,7 +49,6 @@
 		BBA58F65E923D0CA26ECF4C8 /* Pods-Salt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Salt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Salt/Pods-Salt.debug.xcconfig"; sourceTree = "<group>"; };
 		EAE55950EEBBED23E088C4F2 /* Pods-SaltUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SaltUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SaltUITests/Pods-SaltUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ED53229A1FB37E8D00333C63 /* CustomIdentityProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIdentityProvider.swift; sourceTree = "<group>"; };
-		ED53229C1FB38A9400333C63 /* awsconfiguration.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = "<group>"; };
 		ED53229D1FB3915F00333C63 /* my.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = my.txt; sourceTree = "<group>"; };
 		EDFAED851FB33C790057A9C8 /* Salt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDFAED881FB33C790057A9C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -120,7 +119,6 @@
 		EDFAED7C1FB33C790057A9C8 = {
 			isa = PBXGroup;
 			children = (
-				ED53229C1FB38A9400333C63 /* awsconfiguration.json */,
 				ED53229D1FB3915F00333C63 /* my.txt */,
 				EDFAED871FB33C790057A9C8 /* Salt */,
 				EDFAED9C1FB33C7A0057A9C8 /* SaltTests */,
