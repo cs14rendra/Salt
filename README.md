@@ -30,7 +30,7 @@ Amzon account setup is more complicated than iOS Code, here is the headlines to 
 - ios 11.0+
 - xcode 9.0+
 
-## Usefull links
+## Useful links
 - http://docs.aws.amazon.com/aws-mobile/latest/developerguide/getting-started.html
 - http://docs.aws.amazon.com/cognito/latest/developerguide/what-is-amazon-cognito.html
 - https://developers.facebook.com/docs/ios/getting-started/
